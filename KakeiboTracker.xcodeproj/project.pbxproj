@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		BE1562192DDE99F9001F8CA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE1562002DDE99F7001F8CA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE1562072DDE99F7001F8CA7;
+			remoteInfo = KakeiboTracker;
+		};
+		BE1562232DDE99F9001F8CA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE1562002DDE99F7001F8CA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE1562072DDE99F7001F8CA7;
+			remoteInfo = KakeiboTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE1562082DDE99F7001F8CA7 /* KakeiboTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KakeiboTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE1562182DDE99F9001F8CA7 /* KakeiboTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KakeiboTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE1562222DDE99F9001F8CA7 /* KakeiboTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KakeiboTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		BE15620A2DDE99F7001F8CA7 /* KakeiboTracker */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = KakeiboTracker;
+			sourceTree = "<group>";
+		};
+		BE15621B2DDE99F9001F8CA7 /* KakeiboTrackerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = KakeiboTrackerTests;
+			sourceTree = "<group>";
+		};
+		BE1562252DDE99F9001F8CA7 /* KakeiboTrackerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = KakeiboTrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE1562052DDE99F7001F8CA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE1562152DDE99F9001F8CA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE15621F2DDE99F9001F8CA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE1561FF2DDE99F7001F8CA7 = {
+			isa = PBXGroup;
+			children = (
+				BE15620A2DDE99F7001F8CA7 /* KakeiboTracker */,
+				BE15621B2DDE99F9001F8CA7 /* KakeiboTrackerTests */,
+				BE1562252DDE99F9001F8CA7 /* KakeiboTrackerUITests */,
+				BE1562092DDE99F7001F8CA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE1562092DDE99F7001F8CA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE1562082DDE99F7001F8CA7 /* KakeiboTracker.app */,
+				BE1562182DDE99F9001F8CA7 /* KakeiboTrackerTests.xctest */,
+				BE1562222DDE99F9001F8CA7 /* KakeiboTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE1562072DDE99F7001F8CA7 /* KakeiboTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE15622C2DDE99F9001F8CA7 /* Build configuration list for PBXNativeTarget "KakeiboTracker" */;
+			buildPhases = (
+				BE1562042DDE99F7001F8CA7 /* Sources */,
+				BE1562052DDE99F7001F8CA7 /* Frameworks */,
+				BE1562062DDE99F7001F8CA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BE15620A2DDE99F7001F8CA7 /* KakeiboTracker */,
+			);
+			name = KakeiboTracker;
+			packageProductDependencies = (
+			);
+			productName = KakeiboTracker;
+			productReference = BE1562082DDE99F7001F8CA7 /* KakeiboTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE1562172DDE99F9001F8CA7 /* KakeiboTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE15622F2DDE99F9001F8CA7 /* Build configuration list for PBXNativeTarget "KakeiboTrackerTests" */;
+			buildPhases = (
+				BE1562142DDE99F9001F8CA7 /* Sources */,
+				BE1562152DDE99F9001F8CA7 /* Frameworks */,
+				BE1562162DDE99F9001F8CA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE15621A2DDE99F9001F8CA7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BE15621B2DDE99F9001F8CA7 /* KakeiboTrackerTests */,
+			);
+			name = KakeiboTrackerTests;
+			packageProductDependencies = (
+			);
+			productName = KakeiboTrackerTests;
+			productReference = BE1562182DDE99F9001F8CA7 /* KakeiboTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE1562212DDE99F9001F8CA7 /* KakeiboTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE1562322DDE99F9001F8CA7 /* Build configuration list for PBXNativeTarget "KakeiboTrackerUITests" */;
+			buildPhases = (
+				BE15621E2DDE99F9001F8CA7 /* Sources */,
+				BE15621F2DDE99F9001F8CA7 /* Frameworks */,
+				BE1562202DDE99F9001F8CA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE1562242DDE99F9001F8CA7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BE1562252DDE99F9001F8CA7 /* KakeiboTrackerUITests */,
+			);
+			name = KakeiboTrackerUITests;
+			packageProductDependencies = (
+			);
+			productName = KakeiboTrackerUITests;
+			productReference = BE1562222DDE99F9001F8CA7 /* KakeiboTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE1562002DDE99F7001F8CA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					BE1562072DDE99F7001F8CA7 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					BE1562172DDE99F9001F8CA7 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = BE1562072DDE99F7001F8CA7;
+					};
+					BE1562212DDE99F9001F8CA7 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = BE1562072DDE99F7001F8CA7;
+					};
+				};
+			};
+			buildConfigurationList = BE1562032DDE99F7001F8CA7 /* Build configuration list for PBXProject "KakeiboTracker" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE1561FF2DDE99F7001F8CA7;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BE1562092DDE99F7001F8CA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE1562072DDE99F7001F8CA7 /* KakeiboTracker */,
+				BE1562172DDE99F9001F8CA7 /* KakeiboTrackerTests */,
+				BE1562212DDE99F9001F8CA7 /* KakeiboTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE1562062DDE99F7001F8CA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE1562162DDE99F9001F8CA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE1562202DDE99F9001F8CA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE1562042DDE99F7001F8CA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE1562142DDE99F9001F8CA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE15621E2DDE99F9001F8CA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE15621A2DDE99F9001F8CA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE1562072DDE99F7001F8CA7 /* KakeiboTracker */;
+			targetProxy = BE1562192DDE99F9001F8CA7 /* PBXContainerItemProxy */;
+		};
+		BE1562242DDE99F9001F8CA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE1562072DDE99F7001F8CA7 /* KakeiboTracker */;
+			targetProxy = BE1562232DDE99F9001F8CA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BE15622A2DDE99F9001F8CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE15622B2DDE99F9001F8CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE15622D2DDE99F9001F8CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KakeiboTracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baristekin.KakeiboTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE15622E2DDE99F9001F8CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KakeiboTracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baristekin.KakeiboTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BE1562302DDE99F9001F8CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baristekin.KakeiboTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KakeiboTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KakeiboTracker";
+			};
+			name = Debug;
+		};
+		BE1562312DDE99F9001F8CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baristekin.KakeiboTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KakeiboTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KakeiboTracker";
+			};
+			name = Release;
+		};
+		BE1562332DDE99F9001F8CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baristekin.KakeiboTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KakeiboTracker;
+			};
+			name = Debug;
+		};
+		BE1562342DDE99F9001F8CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baristekin.KakeiboTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KakeiboTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE1562032DDE99F7001F8CA7 /* Build configuration list for PBXProject "KakeiboTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE15622A2DDE99F9001F8CA7 /* Debug */,
+				BE15622B2DDE99F9001F8CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE15622C2DDE99F9001F8CA7 /* Build configuration list for PBXNativeTarget "KakeiboTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE15622D2DDE99F9001F8CA7 /* Debug */,
+				BE15622E2DDE99F9001F8CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE15622F2DDE99F9001F8CA7 /* Build configuration list for PBXNativeTarget "KakeiboTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE1562302DDE99F9001F8CA7 /* Debug */,
+				BE1562312DDE99F9001F8CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE1562322DDE99F9001F8CA7 /* Build configuration list for PBXNativeTarget "KakeiboTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE1562332DDE99F9001F8CA7 /* Debug */,
+				BE1562342DDE99F9001F8CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE1562002DDE99F7001F8CA7 /* Project object */;
+}

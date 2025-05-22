@@ -7,53 +7,101 @@
 
 import SwiftUI
 
+import SwiftUI
+
 struct ContentView: View {
-    @State private var expenses: [Expense] = []
-    @State private var showingAddExpense = false
-
+    @State private var expenses: [Expense] = [
+        Expense(title: "Market", amount: 35.50),
+        Expense(title: "Kira", amount: 500),
+        Expense(title: "Elektrik", amount: 75.20)
+    ]
+    
+    @State private var showExpenses = false
+    
     var body: some View {
-        NavigationView {
+        ZStack {
+            LinearGradient(
+                gradient: Gradient(colors: [Color.blue.opacity(0.3), Color.purple.opacity(0.3)]),
+                startPoint: .topLeading,
+                endPoint: .bottomTrailing
+            )
+            .ignoresSafeArea()
+            
             VStack {
-                Text("Toplam Harcama: \(totalAmount()) ₺")
-                    .font(.title2)
-                    .padding()
-
-                List(expenses) { expense in
-                    VStack(alignment: .leading) {
-                        Text(expense.title)
-                            .font(.headline)
-                        Text("\(expense.amount, specifier: "%.2f") ₺")
-                            .font(.subheadline)
-                            .foregroundColor(.gray)
+                if !showExpenses {
+                    Text("Harcamalarım")
+                        .font(.largeTitle)
+                        .fontWeight(.bold)
+                        .padding(.top, 60)
+                        .transition(.opacity)
+                }
+                
+                Spacer()
+                
+                if !showExpenses {
+                    Button(action: {
+                        withAnimation(.spring(response: 0.5, dampingFraction: 0.8)) {
+                            showExpenses = true
+                        }
+                    }) {
+                        Text("Harcamaları Göster")
+                            .fontWeight(.semibold)
+                            .foregroundColor(.white)
+                            .padding()
+                            .frame(width: 220)
+                            .background(Color.blue)
+                            .cornerRadius(15)
+                            .shadow(color: Color.blue.opacity(0.4), radius: 8, x: 0, y: 4)
                     }
-                }
-
-                Button(action: {
-                    showingAddExpense = true
-                }) {
-                    Text("Harcama Ekle")
-                        .frame(maxWidth: .infinity)
+                    .transition(.scale)
+                    .padding(.bottom, 100)
+                } else {
+                    VStack(spacing: 20) {
+                        Button(action: {
+                            withAnimation(.easeInOut) {
+                                showExpenses = false
+                            }
+                        }) {
+                            Text("Harcamaları Gizle")
+                                .fontWeight(.semibold)
+                                .foregroundColor(.white)
+                                .padding()
+                                .frame(width: 220)
+                                .background(Color.red)
+                                .cornerRadius(15)
+                                .shadow(color: Color.red.opacity(0.4), radius: 8, x: 0, y: 4)
+                        }
+                        .transition(.move(edge: .top))
+                        
+                        VStack(spacing: 12) {
+                            ForEach(expenses) { expense in
+                                HStack {
+                                    Text(expense.title)
+                                        .font(.system(size: 16, weight: .medium))
+                                    Spacer()
+                                    Text("$\(expense.amount, specifier: "%.2f")")
+                                        .foregroundColor(.green)
+                                }
+                                .padding()
+                                .background(Color.white)
+                                .cornerRadius(12)
+                                .shadow(color: Color.black.opacity(0.08), radius: 4, x: 0, y: 2)
+                            }
+                        }
                         .padding()
-                        .background(Color.green)
-                        .foregroundColor(.white)
-                        .cornerRadius(12)
+                        .frame(maxWidth: .infinity)
+                        .background(
+                            RoundedRectangle(cornerRadius: 25)
+                                .fill(Color.white.opacity(0.95))
+                        )
                         .padding(.horizontal)
+                        .transition(.move(edge: .bottom).combined(with: .opacity))
+                    }
+                    .padding(.top, 80)
                 }
-                .sheet(isPresented: $showingAddExpense) {
-                    AddExpenseView(expenses: $expenses)
-                }
+                
+                Spacer()
             }
-            .navigationTitle("Kakeibo")
         }
     }
-
-    func totalAmount() -> Double {
-        expenses.reduce(0) { $0 + $1.amount }
-    }
-}
-
-struct Expense: Identifiable {
-    let id = UUID()
-    let title: String
-    let amount: Double
 }
